@@ -1,0 +1,725 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+  
+   
+    
+}
+
+.navbar{
+    margin-top: 48px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: 14px;
+      max-width: 100%;
+      justify-items: center;
+      align-items: center;
+      overflow-x: hidden;
+  }
+  
+  .navbar > div{
+    
+      margin:5px;
+    
+  }
+.navbar > div{
+  
+    margin:5px;
+  
+}
+.logo{
+  grid-column: 1/3;  
+}
+
+.host, .domain, .websiteBuilder, .email, .pricing{
+    text-align:center;
+}
+.login{
+  grid-column: 8/10;
+  text-align: right;
+}
+.logotext{
+    margin-left: 35px;
+    margin-top: -30px;
+}
+.logotext > span{
+    font-weight: 600;
+}
+.angle{
+    margin-left: 35px;
+    margin-top: -15px;
+    position: absolute;
+    height: 14px;
+    width: 14px;
+}
+.buttonNav{
+    width: 100px;
+    height: 40px;
+    background-color: #6B67F5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+.gridNavbav a{
+color: black;
+text-decoration: none;
+}
+.homepageFirst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 30px 20px 10px 20px;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 48px;
+    
+    
+}
+.reliabletext{
+    width:50%;
+    padding-top: 20px;
+    
+}
+.solidimage{
+    height: 420px;
+    border-radius: 5px;
+    width: 46%;
+    margin-right: 48px;
+    background-image: url(./images/webhosting.jpg);
+    background-size: cover;
+   
+}
+.solidimage > img{
+    width: 400px;
+    height: 420px;
+    justify-content: flex-end;
+    border-radius: 8px;
+   
+}
+.reliabletext > h1{
+    font-size: 4em;
+    line-height: 80px;
+}
+.reliabletext > p{
+    font-weight: 400;
+    color: #808080;
+    font-size: 14px;
+    line-height: 25px;
+   
+}
+.buttons{
+padding-top: 30px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+
+.gridbutton1 > input{
+    padding: 15px;
+    background-color: #6B67F5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.5), 0 6px 20px 0 rgba(0, 0, 255, 0.5);
+}
+.gridbutton2 > input{
+    padding: 13px;
+    background-color:white;
+    color: black;
+    border:2px solid black;
+    border-radius: 5px;
+
+}
+.homepageSecond{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 50px 48px 30px 48px;
+}
+.homepageOne, .homepageTwo, .homepageThree{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    line-height: 25px;
+    padding-right: 15px;
+}
+.homelLeft{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    padding: 0;
+}
+.homeRight > h2{
+    color: black;
+    line-height: 30px;
+}
+#homeRight{
+    text-decoration: none;
+    line-height: 30px;
+}
+#angleBlue{
+    width:14px;
+    height:14px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 8px;
+}
+.homepageThird{
+    margin:48px;
+    background-color:#6B67F5 ;
+    height:100px;
+    width:93%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 180px 0;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.homepageThird > h1{
+    font-size: 3em;
+    line-height: 80px;
+}
+
+#input > input{
+  width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    flex-grow: 2;
+    position: relative;
+    z-index: 1;
+}
+#input > input:focus{
+    outline: none;
+}
+.homepageThirdinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    width: 655px;
+    border-radius: 5px;
+}
+.homepageThirdinput > select{
+    z-index: 2;
+    position: absolute;
+   margin-left:-20px;
+
+
+
+}
+#domain{
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#search{
+    background-color:#6B67F5;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100px;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.homapageFourth{
+   background-color: #F7FAFE;
+   width: auto;
+   height: auto;
+   padding: 48px;
+   font-size: 14px;
+   font-weight: 400;
+   color: #808080;
+   line-height: 25px;
+  
+}
+.homapageFourth > h1{
+    font-size: 3em;
+    line-height: 80px;
+    color: black;
+}
+.homapageFourth > #headerp{
+    text-align: center;
+    
+}
+.hostingFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    line-height: 30px;
+  justify-content: center;
+   
+   
+}
+.homapageFourth > p{
+    margin-bottom: 20px;
+}
+.sharedHostingCard1{
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+    width: 25%;
+    text-align: center;
+   
+   
+}
+.sharedHostingCard1 >div{
+    text-align: left; 
+}
+.sharedHostingCard1 > h2{
+   color: black;
+}
+.sharedHostingCard1 > input{
+    width: 80%;
+    background-color: #F7FAFE;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#popularbutton{
+    background-color: #17D7B5;
+     color: white;
+      border: none;
+       width: 26%;
+        margin-top: -60px; 
+        position: absolute;
+         margin-left: -172px;
+}
+.card2{
+    background-color: white;
+    border: none;
+}
+.card2 > input{
+    background-color: #6B67F5;
+    border: none;
+    color: white;
+}
+.homePageFifth{
+display: flex;
+flex-wrap: wrap;
+font-size: 14px;
+   font-weight: 400;
+   color: #808080;
+   line-height: 25px;
+   width: 100%;
+   margin-top: 100px;
+ 
+
+
+}
+.homePageFifthText{
+    width: 40%;
+    margin-right: 40px;
+    line-height: 25px;
+    margin-left: 48px;
+}
+.homePageFifthSolid{
+    height: 420px;
+    border-radius: 5px;
+    width: 49%;
+    margin-right: 48px;
+    background-image: url(./images/imagescode.jpg);
+    background-size: cover;
+    
+
+}
+.homePageFifthSolid1{
+    height: 420px;
+    border-radius: 5px;
+    width: 43%;
+    margin-right: 48px;
+    background-image: url(./images/imggirl.jpg);
+    background-size: cover;
+    transform: skewY(3deg);
+    margin: 48px;
+}
+.homePageFifthSolid2{
+    height: 420px;
+    border-radius: 5px;
+    width: 48%;
+    margin-right: 48px;
+    background-image: url(./images/imagegirl.jpg);
+    background-size: cover;
+}
+
+.homePageFifthText > h1{
+    font-size: 4em;
+    color: black;
+    line-height: 70px;
+}
+.learnMore{
+    width:150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.homePageSeventh{
+        margin:48px;
+        background-color:#F7FAFE ;
+        height:100px;
+        width:93%;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        padding: 60px 0 180px 0;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .homePageSeventh > h1{
+        font-size: 4em;
+        line-height: 80px;
+    }
+    
+.homePageSeventh > input{
+    background-color: #6B67F5;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius:5px ;
+}
+.footer{
+    background-color: #090660;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    
+}
+.footer > div{
+    margin: 48px;
+    font-size: 14px;
+   font-weight: 400;
+   color: white;
+   line-height: 35px;
+
+}
+@media only screen and (min-width: 2000px) {
+    
+    #popularbutton{
+        background-color: #17D7B5;
+         color: white;
+          border: none;
+           width: 24.5%;
+            margin-top: -60px; 
+            position: absolute;
+             margin-left: -390px;
+    }
+
+  }
+  @media only screen and (min-width: 2000px) {
+    
+    #popularbutton{
+        background-color: #17D7B5;
+         color: white;
+          border: none;
+           width: 25%;
+            margin-top: -60px; 
+            position: absolute;
+             margin-left: -318px;
+    }
+
+  }  
+  @media only screen and (max-width: 900px) {
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     .angle{
+    display: none;
+}
+      .navbar{
+          font-size: 12px;
+      }
+      .logoImage{
+          width: 20px;
+          height:20px;
+      }
+      .logotext{
+          margin-top: -25px;
+          margin-left: 25px;
+      }
+      .buttonNav{
+        width: 70px;
+        height: 25px;
+        background-color: #6B67F5;
+        color: white;
+        border: none;
+        border-radius: 4px;
+    
+    }
+    .homepageFirst{
+        
+     
+        margin:2px;
+        display: block;
+        text-align: center;
+       
+        
+        
+    }
+    .reliabletext{
+        width: 100%;
+        display: block;
+          
+    }
+    #reliabletext{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    #reliablep{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .solidimage{
+        display: none;
+    }
+    .buttons{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+        }
+        .gridbutton1 > input{
+            width: 100px;
+            font-size: 8px;
+        }
+        
+        .gridbutton2 > input{
+            width: 100px;
+            font-size: 8px;
+        
+        }
+        .homepageSecond{
+            display: block;
+            text-align: center;
+            margin-top: 50px ;
+        }
+        .homepageOne, .homepageTwo, .homepageThree{
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #808080;
+            line-height: 25px;
+            
+        }
+        .sharedHostingCard1{
+            padding: 15px;
+            border: 1px solid blue;
+            border-radius: 5px;
+            margin: 10px;
+            width: 80%;
+            text-align: center;
+           
+           
+        }
+        .homelLeft{
+           display: none;
+        }
+        .homepageThird{
+            margin:10px;
+            background-color:#6B67F5 ;
+            height:150px;
+            width:85%;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            line-height: 15px;
+            font-size: 12px;
+            text-align: center;
+        }
+        .homepageThird > h1{
+            font-size: 2em;
+        line-height: 25px;
+        }
+        #input > input{
+            width: 100px;
+              border-radius: 3px;
+              border: none;
+              font-size: 8px;
+              height: 0.3px;
+              position: relative;
+              z-index: 1;
+          }
+          .homepageThirdinput{
+            display: flex;
+            margin-top:10px ;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: auto;
+            width: 245px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #domain{
+            background-color: white;
+            width: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 8px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        #search{
+            background-color:#6B67F5;
+            width: 50px;
+            height: 5px;
+            padding-bottom: 15px;
+            font-size: 8px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+        .homapageFourth{
+           padding: 5px;
+            font-size: 12px;
+            display: block;
+            text-align: center;
+           
+           
+         }
+         .homapageFourth > h1{
+            font-size: 2em;
+            line-height: 30px;
+            color: black;
+        }
+        .sharedHostingCard1 > input{
+            width: 50%;
+            background-color: #F7FAFE;
+            color: black;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 9px;
+            
+        }
+        #popularbutton{
+            background-color: #17D7B5;
+             color: white;
+              border: none;
+               width: 50%;
+               position: relative;
+               margin-left: 10px;
+                
+        }
+        
+            .homePageFifth{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                font-size: 12px;
+                   font-weight: 400;
+                   color: #808080;
+                   line-height: 25px;
+                   width: auto;
+                   margin: auto;
+                   justify-content: center;
+                   margin-top: 20px;
+                }
+                .homePageFifth > div{
+                    text-align: center;
+                    width: 100%;
+                    margin: 10px;
+                }
+                .homePageFifthSolid{
+                  display: none;
+                }
+                .homePageFifthSolid1{
+                   display: none;
+                }
+                .homePageFifthSolid2{
+                   display: none;
+                }
+                .homePageFifthText > h1{
+                    font-size: 2em;
+                    color: black;
+                    line-height: 30px;
+                }
+                
+.homePageSeventh{
+    background-color:#F7FAFE ;
+    height: 5px;
+    width:270px;
+    margin:auto;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+   
+}
+.homePageSeventh > h1{
+    font-size: 2em;
+    line-height: 30px;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: #090660;
+    color: white;
+    display:grid;
+    font-size: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.footer > div{
+    margin-left: 2px;
+    font-size: 10px;
+   font-weight: 300;
+   color: white;
+   line-height: 10px;
+
+}
+.logofooter{
+    height:15px;
+    width:15px;
+    position: relative;
+    margin-top: -20px;
+}
+.logofooter > p{
+    position: absolute;
+    margin-bottom: -50px;
+}
+.message{
+    display: none;
+}
+.footer4{
+    display: none;
+}
+    }
+
+
+
+
